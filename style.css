@@ -1,1 +1,53 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 
+}
+
+.divv {
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 253px;
+}
+
+.btn {
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    background-color: #505050;
+    color: white;
+    cursor: pointer;
+}
+
+.bc {
+    background-color: #D4D4D2;
+    color: black;
+}
+
+.zero {
+    width: 125px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.mi {
+    background-color: #ff9500;
+    color: white;
+}
+
+input {
+    height: 45px;
+    width: 250px;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: right;
+    border: none;
+    background-color: black;
+    color: white;
+}

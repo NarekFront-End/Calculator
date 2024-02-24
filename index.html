@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="buttons">
+            <div class="divv">
+                <input type="text" class="calculator-screen" disabled placeholder="0">
+                <div class="form1">
+                    <button class="btn bc" id="AC" onclick="clearClick()">AC</button>
+                    <button class="btn bc" id="plusandmuns" onclick="negandpos()">+/-</button>
+                    <button class="btn bc" id="" onclick="action('%')">%</button>
+                    <button class="btn mi" id="divsion" onclick="action('/')">÷</button>
+                </div>
+
+                <div class="form2">
+                    <button class="btn" onclick="handle(7)">7</button>
+                    <button class="btn" onclick="handle(8)">8</button>
+                    <button class="btn" onclick="handle(9)">9</button>
+                    <button class="btn mi" id="mul" onclick="action('*')">×</button>
+                </div>
+
+                <div class="form3">
+                    <button class="btn" onclick="handle(4)">4</button>
+                    <button class="btn" onclick="handle(5)">5</button>
+                    <button class="btn" onclick="handle(6)">6</button>
+                    <button class="btn mi sub" id="sub" onclick="action('-')">−</button>
+                </div>
+
+                <div class="form4">
+                    <button class="btn" onclick="handle(1)">1</button>
+                    <button class="btn" onclick="handle(2)">2</button>
+                    <button class="btn" onclick="handle(3)">3</button>
+                    <button class="btn mi" id="add" onclick="action('+')">+</button>
+                </div>
+
+                <div class="form5">
+                    <button class="btn zero" onclick="handle(0)">0</button>
+                    <button class="btn" onclick="floatingPoint()">,</button>
+                    <button class="btn mi" id="iqu" onclick="condition()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
